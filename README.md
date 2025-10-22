@@ -51,10 +51,10 @@ To run this project, you will need Python 3 and the following libraries:
 
 ### 1. Running the Application
 
-Run the `finalLook.py` file to start the calculator:
+Run the `Setup.py` file to start the calculator:
 
 ```bash
-python finalLook.py
+python Setup.py
 ```
 
 ### 2. Entering Equations
@@ -107,5 +107,5 @@ Here are some valid equations you can try:
 | $\frac{dy}{dx} = \frac{y}{x}$ | `y' = y/x` |
 
 ## Project Structure
-* **`finalLook.py`**: This is the main file to run. It contains all the `PyQt5` GUI code, input parsing, and `matplotlib` canvas setup.
+* **`Setup.py`**: This is the main file to run. It contains all the `PyQt5` GUI code, input parsing, and `matplotlib` canvas setup.
 * **`CalculateODE.py`**: This is the backend solver engine. It imports `sympy` to classify and solve the equation object passed from the GUI.
